@@ -3,6 +3,9 @@ FROM node:latest
 COPY . . 
 # Install dependencies
 RUN npm install
+RUN npm install axios
+RUN npm install material-ui
+RUN npm install @navjobs/upload
 # Build the frontend into a production build
 RUN npm run build
 # Install a static server
