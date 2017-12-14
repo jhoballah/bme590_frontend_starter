@@ -15,8 +15,8 @@ const TableExampleSimple = (props) => (
 		    adjustForCheckbox={false}
 	    >
 	    	<TableRow>
-	    		<TableHeaderColumn>Non-Malignant Percentage</TableHeaderColumn>
-	    		<TableHeaderColumn>Malignant Percentage</TableHeaderColumn>
+	    		<TableHeaderColumn>Non-Malignant Probability</TableHeaderColumn>
+	    		<TableHeaderColumn>Malignant Probability</TableHeaderColumn>
 	      	</TableRow>
 	    </TableHeader>
 	    	<TableBody
